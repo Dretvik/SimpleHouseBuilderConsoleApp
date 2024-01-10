@@ -2,9 +2,7 @@
 {
     internal class Program
     {
-        //internal HouseBuilder houseBuilder;
         HouseBuilder houseBuilder = new HouseBuilder();
-
 
         static void Main(string[] args)
         {
@@ -14,8 +12,6 @@
 
         internal void Run()
         {
-            //HouseBuilder houseBuilder = new HouseBuilder();
-
             Console.WriteLine("Welcome to Ellie's Housebuilder!");
 
             while (true)

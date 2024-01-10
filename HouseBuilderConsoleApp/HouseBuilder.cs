@@ -33,13 +33,7 @@ namespace HouseBuilderConsoleApp
 
                     if (currentRoomCount < 5)
                     {
-                        //Console.Clear();
-                        //PrintHouseInfo();
-                        //Console.WriteLine("\n1. Add Bathroom \n2. Add Kitchen \n3. Add Bedroom \n4. Add Living Room");
-                        //Console.WriteLine("\n0. Go back to main menu..");
-
                         string roomType;
-                        //var choice = Console.ReadLine();
 
                         switch (choice)
                         {
@@ -74,7 +68,6 @@ namespace HouseBuilderConsoleApp
                         {
                             if (house.Floors.Count <= currentFloorIndex)
                             {
-                                // Create a new floor if the current floor index is out of range
                                 house.Floors.Add(new Floor());
                             }
 
